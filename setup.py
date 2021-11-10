@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="symspellpy_ko",
-    version="0.1",
+    version="0.1.1",
     license='GNU General Public License v3 (GPLv3)',
     author="Heegyu Kim",
     author_email="heekue83@gmail.com",
@@ -11,6 +11,9 @@ setuptools.setup(
     url="https://github.com/HeegyuKim/symspellpy-ko",
     packages=setuptools.find_packages(),
     include_package_data=True,
+    package_data = {
+        '': ["*.txt"]
+    },
     classifiers=[
         # 패키지에 대한 태그
         "Programming Language :: Python :: 3",
