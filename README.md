@@ -1,0 +1,2 @@
+# Symspellpy-ko
+
