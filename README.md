@@ -48,7 +48,7 @@ for suggestion in sym_spell.lookup(term, Verbosity.ALL):
 ... 총49개
 ```
 ### lookup compound를 이용해 오타교정과 띄어쓰기 문제까지 같이 찾아주기
-```
+```python
 text = "그래도 괜찮지앟ㄴ을까"
 for suggestion in sym_spell.lookup_compound(text, max_edit_distance=2):
   print(suggestion.term, suggestion.distance, suggestion.count)
@@ -59,7 +59,7 @@ for suggestion in sym_spell.lookup_compound(text, max_edit_distance=2):
 ```
 
 ### word segmentation을 이용하여 띄어쓰기 분리
-```
+```python
 text = "감기빨리치료해줘"
 comp = sym_spell.word_segmentation(text, max_edit_distance=0)
 print(comp.corrected_string)
