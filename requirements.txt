@@ -1,2 +1,1 @@
-pandas
-symspellpy
+symspellpy==6.7.0

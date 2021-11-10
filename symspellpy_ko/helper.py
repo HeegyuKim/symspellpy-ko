@@ -1,5 +1,5 @@
 import pandas as pd
-from .unicode import split_syllables, join_jamos
+from .unicode import split_syllables
 
 
 def build_decomposed_dictionary(input_filename: str, output_file: str):
