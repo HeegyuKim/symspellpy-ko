@@ -91,6 +91,7 @@ print(comp.corrected_string)
 4. 더 많고 질 높은 데이터 구축이 필요하다...
 
 ## Credits
+- [국립국어원 모두의 말뭉치](https://corpus.korean.go.kr/): 신문 말뭉치 2020(2.0), 문어 말뭉치(2.0), 구어 말뭉치(2.0), 일상 대화 말뭉치 2020(1.0)  2020(1.0)을 사용하여 한국어 Bigram 데이터셋을 구축했습니다.
 - [SymSpell(MIT)](https://github.com/wolfgarbe/SymSpell)
 - [SymSpellPy(MIT)](https://github.com/mammothb/symspellpy)
 - [FrequencyWords(MIT)](https://github.com/hermitdave/FrequencyWords) 이곳에서 [한글 어절 빈도수 데이터](https://github.com/hermitdave/FrequencyWords/blob/master/content/2018/ko/ko_50k.txt)를 가져와서 사용했다.
